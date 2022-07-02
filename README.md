@@ -1,6 +1,6 @@
 # CleanCrap
 
-![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
+![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg?style=plastic)
 ![pytorch 1.6.0](https://img.shields.io/badge/pytorch-1.6.1-green.svg?style=plastic)
 ![Docker 20.10.14](https://img.shields.io/badge/docker-20.10.14-green.svg?style=plastic)
 ![Google colab](https://img.shields.io/badge/Google%20colabotary----green.svg?style=plastic)

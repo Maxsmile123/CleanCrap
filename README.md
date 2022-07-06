@@ -17,7 +17,8 @@ Some text
 - [ ] Upload a neural network to the cloud (Google Colab)
 
 ## How to use it?
-Create a folder `Third_party`, run in it  v
+Create a folder `Third_party`, run in it `setup.py` , replace `test.py` to my file and fix the inconsistencies with the paths in import
+## Our advantages
 <p>
  <img alt="GIF" src="https://github.com/Maxsmile123/Maxsmile123/blob/0b91404cf9b05255b53d927910f3c0c863685099/res/animation.gif"/>
 </p>

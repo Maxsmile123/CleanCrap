@@ -1,8 +1,9 @@
+import time
+
 import streamlit as st
 import cv2
 import os
 import E2FGVI.test as model
-
 
 
 
@@ -60,16 +61,21 @@ if result:
     with st.spinner('We are making some magic...'):
         model.main_worker("e2fgvi", "E2FGVI/examples/tennis", "E2FGVI/examples/tennis_mask", "E2FGVI/release_model/E2FGVI"
                                                                                             "-CVPR22.pth")
+    with st.spinner('prepare your video...'):
+        time.sleep(5)
     st.success('Done!')
-    video_file = open('E2FGVI/results/results.mp4', 'rb')
-    video_bytes = video_file.read()
-    st.video(video_bytes)
-    os.system("rm dataset")
+    with open('results/result.mp4', 'rb') as video:
+        st.download_button(
+            label="Download result video",
+            data=video,
+            file_name="result.mp4",
+            mime="video/mp4"
+        )
 
 
 
 
-# НЕ забудь в конце удалить все видео
+
 
 
 

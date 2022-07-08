@@ -1,9 +1,7 @@
-import time
-
 import streamlit as st
 import cv2
 import os
-import E2FGVI.test as model
+import Third_party.E2FGVI.test as model
 
 
 
@@ -59,10 +57,8 @@ load_masks()
 result = st.button('Start deleting')
 if result:
     with st.spinner('We are making some magic...'):
-        model.main_worker("e2fgvi", "E2FGVI/examples/tennis", "E2FGVI/examples/tennis_mask", "E2FGVI/release_model/E2FGVI"
-                                                                                            "-CVPR22.pth")
-    with st.spinner('prepare your video...'):
-        time.sleep(5)
+        model.main_worker("e2fgvi", "dataset/video_frames", "dataset/mask_frames", "E2FGVI/release_model/E2FGVI-"
+                                                                                            "HQ-CVPR22.pth")
     st.success('Done!')
     with open('results/result.mp4', 'rb') as video:
         st.download_button(

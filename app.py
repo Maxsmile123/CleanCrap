@@ -44,10 +44,10 @@ def read_frame_from_videos(path, name):
 
 st.title('Deleting object from video')
 try:
-    os.system('mkdir dataset\\video')
-    os.system('mkdir dataset\\mask')
-    os.system('mkdir dataset\\video_frames')
-    os.system('mkdir dataset\\mask_frames')
+    os.system('mkdir dataset/video')
+    os.system('mkdir dataset/mask')
+    os.system('mkdir dataset/video_frames')
+    os.system('mkdir dataset/mask_frames')
 except:
     print('[-] Folders already exist')
 

@@ -19,7 +19,7 @@ To do this, you do not need to understand complex Adobe programs.
 - [x] Register domain
 - [ ] Upload a neural network to the cloud (Google Colab)
 
-# Further improvements
+## Further improvements
 - [ ] Create an editor to highlight the mask
 - [ ] Transfer calculations to GPU
 - [ ] Improve the speed of passing a sliding window in a neural network

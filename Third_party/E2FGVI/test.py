@@ -13,8 +13,8 @@ from Third_party.E2FGVI.core.utils import to_tensors
 
 ref_length = 10  # ref_step
 num_ref = -1
-neighbor_stride = 5
-default_fps = 25
+neighbor_stride = 3
+default_fps = 30
 
 
 
@@ -96,7 +96,7 @@ def main_worker(model, video, mask, ckpt):
     else:
         size = None
 
-    net = importlib.import_module('E2FGVI.model.' + model)
+    net = importlib.import_module('Third_party.E2FGVI.model.' + model)
     model = net.InpaintGenerator().to(device)
     data = torch.load(ckpt, map_location=device)
     model.load_state_dict(data)

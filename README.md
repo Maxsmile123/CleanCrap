@@ -5,7 +5,7 @@
 ![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg?style=plastic)
 ![open_cv-python 4.6.0](https://img.shields.io/badge/open_cv-4.6.0-green.svg?style=plastic)
 ![pytorch 1.12.0](https://img.shields.io/badge/pytorch-1.12.0-green.svg?style=plastic)
-![Docker 20.10.14](https://img.shields.io/badge/docker-20.10.14-green.svg?style=plastic)
+![Docker 20.10.17](https://img.shields.io/badge/docker-20.10.14-green.svg?style=plastic)
 
 
 ## Description

@@ -27,7 +27,7 @@ To do this, you do not need to understand complex Adobe programs.
 - [ ] Learn how to remove shadows from objects
 
 ## How to use it?
-Run `setup.py` then run `streamlit run app.py`. Make sure you have all the dependencies of their file installed `requirements.txt`
+Run `setup.py` then run `streamlit run app.py`. Make sure that you have all the dependencies from the file installed `requirements.txt`
 ## Our advantages
 <p>
  <img alt="GIF" src="https://github.com/Maxsmile123/Maxsmile123/blob/0b91404cf9b05255b53d927910f3c0c863685099/res/animation.gif"/>

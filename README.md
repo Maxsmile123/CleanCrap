@@ -17,7 +17,7 @@ To do this, you do not need to understand complex Adobe programs.
 - [x] Make a landing page
 - [x] Adapt the neural network to all video sizes
 - [x] Register domain
-- [ ] Upload a neural network to the cloud (Google Colab)
+- [ ] Upload a neural network to the cloud
 
 ## Further improvements
 - [ ] Create an editor to highlight the mask
